@@ -39,7 +39,12 @@ class HomePage extends StatelessWidget {
                       height: 200,
                       width: 200,
                     ),
-                    Text(Building.movies[index].name)
+                    Text(Building.movies[index].name),
+                    Container(
+                      child: Text("->"),
+                      decoration: BoxDecoration(color: Colors.red),
+                      padding: EdgeInsets.all(10),
+                    )
                   ],
                 )),
               ),

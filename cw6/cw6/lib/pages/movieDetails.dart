@@ -22,7 +22,8 @@ class MovieDetails extends StatelessWidget {
             Container(
               child: Text("${movie.name}"),
               margin: EdgeInsets.all(10),
-            )
+            ),
+            Text(movie.description)
           ],
         ),
       ),
